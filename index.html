@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="../Framework/bootstrap/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="../Framework/fontawesome/css/all.css" />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main class="container-fluid">
+      <form action="" class="card p-2 text-light">
+        <div class="input-groups">
+          <label class="" for="name">Name</label>
+          <input
+            class="form-control mt-2 mb-2"
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Name..."
+          />
+        </div>
+        <div class="input-groups">
+          <label for="num">Number</label>
+          <input
+            class="form-control mt-2 mb-2"
+            type="number"
+            name="num"
+            placeholder="Number..."
+            id="num"
+          />
+        </div>
+
+        <button type="button" class="btn btn-primary mt-3">Apply</button>
+      </form>
+
+      <section class="border border-2 border-dark p-2 mt-5">
+        <ul class="list-group list-style-none">
+          <li class="list-group-item">
+            <div class="row">
+              <div class="col-sm-8 mb-2 bg-dark text-light">
+                <h1>Hello</h1>
+              </div>
+              <div class="col-sm-4">
+                <div class="titles float-end">
+                  <button id="delete" class="btn btn-danger">
+                    <i class="fas fa-times"></i>
+                  </button>
+                  <button id="check" class="btn btn-success">
+                    <i class="fas fa-check"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <script src="../Framework/fontawesome/css/all.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
